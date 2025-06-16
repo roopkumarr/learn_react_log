@@ -1,6 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
 import Greet from './Components/Greet';
+import Welcome from './Components/Welcome';
 
 function App() {
   return (
@@ -12,6 +13,9 @@ function App() {
         </p>
         <p>
           <Greet/>
+        </p>
+        <p>
+          <Welcome/>
         </p>
         <a
           className="App-link"
