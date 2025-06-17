@@ -49,7 +49,9 @@ function App() {
         </p>
         <p>
           <ClassCompProps name="World"wordCount="5"/>
-          <ClassCompProps name="Classes"wordCount="7"/>
+          <ClassCompProps name="Classes"wordCount="7">
+            <p>Child comp inside class</p>
+            </ClassCompProps>
         </p>
         <a
           className="App-link"

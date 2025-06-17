@@ -9,6 +9,8 @@ class ClassCompProps extends Component{
                 Hello {this.props.name}
                 <br/>
                 wordCount == {this.props.wordCount} 
+                <br/>
+                <h2>{this.props.children}</h2>
             </div>
         );
     }
