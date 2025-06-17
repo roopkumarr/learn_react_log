@@ -6,6 +6,7 @@ import Hello from './Components/Hello';
 import HelloMessage from './Components/HelloMessage';
 import ClassCompProps from './Components/ClassCompProps';
 import Student from './Components/Student';
+import Employee from './Components/Employee';
 
 
 let a ="React";
@@ -58,6 +59,9 @@ function App() {
         </p>
         <p>
           <Student name="Roop"/>
+        </p>
+        <p>
+          <Employee/>
         </p>
         <a
           className="App-link"
