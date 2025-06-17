@@ -61,7 +61,7 @@ function App() {
           <Student name="Roop"/>
         </p>
         <p>
-          <Employee/>
+          <Employee name="Developer"/>
         </p>
         <a
           className="App-link"

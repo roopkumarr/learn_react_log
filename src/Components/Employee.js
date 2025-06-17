@@ -1,10 +1,11 @@
 import React, { Component } from "react";
 
 class Employee extends Component{
-    constructor(){
-        super();
+    constructor(props){
+        super(props);
         this.state={
-            name:"Roop" // We can have multiple properties
+            name:this.props.name, // Setting props data to state
+            // name:"Roop" // We can have multiple properties
         }
     }
     changeName(){
