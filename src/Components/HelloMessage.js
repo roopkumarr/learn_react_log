@@ -2,7 +2,7 @@ import React from "react";
 
 // Note: all the values of props can be accessed only inside the components(currently in functional component) and the values are imutable
 // props.children is used to access the child component of the current component
-// Note it is not compulsory to use props keyword as argument
+// Note it is not compulsory to use props keyword as argument we can use different name eg: properties
 
 function HelloMessage(props){
     return(

@@ -57,7 +57,7 @@ function App() {
             </ClassCompProps>
         </p>
         <p>
-          <Student/>
+          <Student name="Roop"/>
         </p>
         <a
           className="App-link"
