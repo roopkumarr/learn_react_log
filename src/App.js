@@ -44,6 +44,8 @@ function App() {
         </p>
         <p>
           {/* we can pass variable using {<variable>} */}
+          {/* this even shows how props can be passed from parent component to child component */}
+          {/* in our case app.js is parent component and HelloMessage is child component and attribute name is getting the variable a passed*/}
           <HelloMessage name={a}/>
           <button>Click Cild Comp</button>
         </p>
