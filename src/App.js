@@ -5,6 +5,7 @@ import Welcome from './Components/Welcome';
 import Hello from './Components/Hello';
 import HelloMessage from './Components/HelloMessage';
 import ClassCompProps from './Components/ClassCompProps';
+import Student from './Components/Student';
 
 
 let a ="React";
@@ -54,6 +55,9 @@ function App() {
           <ClassCompProps name="Classes"wordCount="7">
             <p>Child comp inside class</p>
             </ClassCompProps>
+        </p>
+        <p>
+          <Student/>
         </p>
         <a
           className="App-link"
