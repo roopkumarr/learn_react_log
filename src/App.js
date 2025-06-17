@@ -4,7 +4,10 @@ import Greet from './Components/Greet';
 import Welcome from './Components/Welcome';
 import Hello from './Components/Hello';
 import HelloMessage from './Components/HelloMessage';
+import ClassCompProps from './Components/ClassCompProps';
 
+
+let a ="React";
 function App() {
   return (
     <div className="App">
@@ -38,6 +41,15 @@ function App() {
           {/* <HelloMessage name="Developer."datafield={{"a":1,"b":2}}/> */}
           <HelloMessage name="Developer."/>
           <button>Click Cild Comp</button>
+        </p>
+        <p>
+          {/* we can pass variable using {<variable>} */}
+          <HelloMessage name={a}/>
+          <button>Click Cild Comp</button>
+        </p>
+        <p>
+          <ClassCompProps name="World"wordCount="5"/>
+          <ClassCompProps name="Classes"wordCount="7"/>
         </p>
         <a
           className="App-link"
