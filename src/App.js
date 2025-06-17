@@ -3,6 +3,7 @@ import './App.css';
 import Greet from './Components/Greet';
 import Welcome from './Components/Welcome';
 import Hello from './Components/Hello';
+import HelloMessage from './Components/HelloMessage';
 
 function App() {
   return (
@@ -13,7 +14,8 @@ function App() {
           Edit <code>src/App.js</code> and save to reload.
         </p>
         <p>
-          <Greet/>
+          {/* Self closing tag */}
+          <Greet/> 
         </p>
         <p>
           <Welcome/>
@@ -21,6 +23,13 @@ function App() {
         <p>
           <Hello/>
         </p>
+        <p>
+          <HelloMessage name="World."datafield={{"a":1,"b":2}}/>
+        </p>
+        <p>
+          <HelloMessage name="Developer."datafield={{"a":1,"b":2}}/>
+        </p>
+          
         <a
           className="App-link"
           href="https://reactjs.org"
