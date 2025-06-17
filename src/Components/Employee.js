@@ -1,12 +1,16 @@
 import React, { Component } from "react";
 
 class Employee extends Component{
-    constructor(props){
-        super(props);
-        this.state={
-            name:this.props.name, // Setting props data to state
-            // name:"Roop" // We can have multiple properties
-        }
+    // constructor(props){
+    //     super(props);
+    //     this.state={
+    //         name:this.props.name, // Setting props data to state
+    //         // name:"Roop" // We can have multiple properties
+    //     }
+    // }
+// Setting stage without constructor
+    state = {
+        name: "ROOP"
     }
     changeName(){
         this.setState({
