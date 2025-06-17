@@ -23,13 +23,22 @@ function App() {
         <p>
           <Hello/>
         </p>
-        <p>
+        {/* <p>
           <HelloMessage name="World."datafield={{"a":1,"b":2}}/>
         </p>
         <p>
           <HelloMessage name="Developer."datafield={{"a":1,"b":2}}/>
+        </p> */}
+        <p>
+          <HelloMessage name="World."datafield={{"a":1,"b":2}}>
+            <p>Clild Component 1</p>
+            </HelloMessage>
         </p>
-          
+        <p>
+          {/* <HelloMessage name="Developer."datafield={{"a":1,"b":2}}/> */}
+          <HelloMessage name="Developer."/>
+          <button>Click Cild Comp</button>
+        </p>
         <a
           className="App-link"
           href="https://reactjs.org"
