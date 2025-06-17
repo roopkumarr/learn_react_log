@@ -7,6 +7,7 @@ import HelloMessage from './Components/HelloMessage';
 import ClassCompProps from './Components/ClassCompProps';
 import Student from './Components/Student';
 import Employee from './Components/Employee';
+import Customer from './Components/Customer';
 
 
 let a ="React";
@@ -62,6 +63,10 @@ function App() {
         </p>
         <p>
           <Employee name="Developer"/>
+        </p>
+        <p>
+          {/* to write numbers we can use { } */}
+          <Customer name="RPKMR" age={30}/>
         </p>
         <a
           className="App-link"
