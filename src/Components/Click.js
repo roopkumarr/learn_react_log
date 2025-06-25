@@ -1,27 +1,28 @@
-import React, { Component } from "react";
+// import React, { Component } from "react";
+import React from "react";
 
-// function Click(){
-//     function HelloFunction(){
-//         return(alert("Hello World"))
-//     }
-//     return(
-//         <div>
-//             <button onClick={HelloFunction}>Click</button>
-//         </div>
-//     )
-// }
-
-class Click extends Component{
-    render(){
-        const HelloFunction = (name)=>{
-        alert(`Hello ${name}`);        
+function Click(props){
+    const HelloFunction = (name)=>{
+        return(alert(`Hello Func ${name}`))
     }
-        return(
+    return(
         <div>
-            <button onClick={()=>HelloFunction(this.props.name)}>Click</button>
+            <button onClick={()=>HelloFunction(props.name)}>Click</button>
         </div>
-        )
-    }
+    )
 }
+
+// class Click extends Component{
+//     render(){
+//         const HelloFunction = (name)=>{
+//         alert(`Hello ${name}`);        
+//     }
+//         return(
+//         <div>
+//             <button onClick={()=>HelloFunction(this.props.name)}>Click</button>
+//         </div>
+//         )
+//     }
+// }
 
 export default Click;
