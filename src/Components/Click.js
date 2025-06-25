@@ -15,8 +15,8 @@ function Click(props){
 // class Click extends Component{
 //     render(){
 //         const HelloFunction = (name)=>{
-//         alert(`Hello ${name}`);        
-//     }
+//             return(alert(`Hello ${name}`))        
+//         }
 //         return(
 //         <div>
 //             <button onClick={()=>HelloFunction(this.props.name)}>Click</button>
