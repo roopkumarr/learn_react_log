@@ -8,6 +8,7 @@ import ClassCompProps from './Components/ClassCompProps';
 import Student from './Components/Student';
 import Employee from './Components/Employee';
 import Customer from './Components/Customer';
+import Click from './Components/Click';
 
 
 let a ="React";
@@ -67,6 +68,9 @@ function App() {
         <p>
           {/* to write numbers we can use { } */}
           <Customer name="RPKMR" age={30}/>
+        </p>
+        <p>
+          <Click/>
         </p>
         <a
           className="App-link"
