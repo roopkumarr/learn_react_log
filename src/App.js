@@ -70,7 +70,7 @@ function App() {
           <Customer name="RPKMR" age={30}/>
         </p>
         <p>
-          <Click/>
+          <Click name = "RPKMR"/>
         </p>
         <a
           className="App-link"

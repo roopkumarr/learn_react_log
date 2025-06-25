@@ -12,13 +12,13 @@ import React, { Component } from "react";
 // }
 
 class Click extends Component{
-    HelloFunction(){
-        return(alert("Hello World"))        
-    }
     render(){
+        const HelloFunction = (name)=>{
+        alert(`Hello ${name}`);        
+    }
         return(
         <div>
-            <button onClick={this.HelloFunction}>Click</button>
+            <button onClick={()=>HelloFunction(this.props.name)}>Click</button>
         </div>
         )
     }
