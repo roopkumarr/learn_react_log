@@ -9,6 +9,7 @@ import Student from './Components/Student';
 import Employee from './Components/Employee';
 import Customer from './Components/Customer';
 import Click from './Components/Click';
+import EventBind from './Components/EventBind';
 
 
 let a ="React";
@@ -71,6 +72,9 @@ function App() {
         </p>
         <p>
           <Click name = "RPKMR"/>
+        </p>
+        <p>
+          <EventBind/>
         </p>
         <a
           className="App-link"
