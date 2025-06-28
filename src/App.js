@@ -10,6 +10,7 @@ import Employee from './Components/Employee';
 import Customer from './Components/Customer';
 import Click from './Components/Click';
 import EventBind from './Components/EventBind';
+import ParentComponent from './Components/ParentComponent';
 
 
 let a ="React";
@@ -76,6 +77,7 @@ function App() {
         <p>
           <EventBind/>
         </p>
+        <ParentComponent/>
         <a
           className="App-link"
           href="https://reactjs.org"
