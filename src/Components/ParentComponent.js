@@ -2,8 +2,9 @@ import React, { Component } from 'react'
 import ChildComponent from './ChildComponent';
 
 class ParentComponent extends Component{
-    ParentMethod = () =>{
-        return(alert("Hello from parent"));
+    ParentMethod = (childName) =>{
+        // console.log("childName====", childName)
+        return(alert("Hello from parent " + childName));
     }
     render(){
         return(

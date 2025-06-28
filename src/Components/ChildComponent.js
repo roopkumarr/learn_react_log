@@ -4,7 +4,8 @@ class ChildComponent extends Component{
     render(){
         return(
             <div>
-                <button onClick={this.props.callMethod}>Click</button>
+                {/* passing attribute to the function */}
+                <button onClick={()=>this.props.callMethod("ChildComp") }>Click</button>
             </div>
         )
     }
