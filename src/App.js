@@ -19,11 +19,13 @@ let a ="React";
 function App() {
   const flagVal = true;
   const showName = "World";
+  let age = 15;
   // Making conditional statement out side
   if(flagVal == false)
   // return(<Component1/>)
   return(
     <div>
+      <Component1/>
       {/* the bellow example is the only way of using '&&' conditional operator */}
       {showName === "World" && <h1>Hollo World</h1>}
     </div>
@@ -96,6 +98,10 @@ function App() {
           <Component2/>
           {/* the bellow example is the only way of using '&&' conditional operator */}
           {showName === "World" && <h1>Hollo World</h1>}
+          {/* using ternary operator */}
+          {
+            age >= 18 ? <h1>{age} is eligible age for vote</h1> : <h1>{age} is not eligible age for vote</h1> 
+          }
         </p>
         <a
           className="App-link"
