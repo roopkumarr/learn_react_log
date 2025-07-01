@@ -18,9 +18,16 @@ import Component2 from './Components/Component2';
 let a ="React";
 function App() {
   const flagVal = true;
+  const showName = "World";
   // Making conditional statement out side
   if(flagVal == false)
-  return(<Component1/>)
+  // return(<Component1/>)
+  return(
+    <div>
+      {/* the bellow example is the only way of using '&&' conditional operator */}
+      {showName === "World" && <h1>Hollo World</h1>}
+    </div>
+  )
   else
   return (
     <div className="App">
@@ -87,6 +94,8 @@ function App() {
         <ParentComponent/>
         <p>
           <Component2/>
+          {/* the bellow example is the only way of using '&&' conditional operator */}
+          {showName === "World" && <h1>Hollo World</h1>}
         </p>
         <a
           className="App-link"
