@@ -13,6 +13,7 @@ import EventBind from './Components/EventBind';
 import ParentComponent from './Components/ParentComponent';
 import Component1 from './Components/Component1';
 import Component2 from './Components/Component2';
+import Students from './Components/Students';
 
 
 let a ="React";
@@ -102,6 +103,9 @@ function App() {
           {
             age >= 18 ? <h1>{age} is eligible age for vote</h1> : <h1>{age} is not eligible age for vote</h1> 
           }
+        </p>
+        <p>
+          <Students/>
         </p>
         <a
           className="App-link"
