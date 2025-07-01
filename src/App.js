@@ -11,10 +11,17 @@ import Customer from './Components/Customer';
 import Click from './Components/Click';
 import EventBind from './Components/EventBind';
 import ParentComponent from './Components/ParentComponent';
+import Component1 from './Components/Component1';
+import Component2 from './Components/Component2';
 
 
 let a ="React";
 function App() {
+  const flagVal = true;
+  // Making conditional statement out side
+  if(flagVal == false)
+  return(<Component1/>)
+  else
   return (
     <div className="App">
       <header className="App-header">
@@ -78,6 +85,9 @@ function App() {
           <EventBind/>
         </p>
         <ParentComponent/>
+        <p>
+          <Component2/>
+        </p>
         <a
           className="App-link"
           href="https://reactjs.org"
