@@ -14,6 +14,7 @@ import ParentComponent from './Components/ParentComponent';
 import Component1 from './Components/Component1';
 import Component2 from './Components/Component2';
 import Students from './Components/Students';
+import StyleComponent from './Components/StyleComponent';
 
 
 let a ="React";
@@ -106,6 +107,9 @@ function App() {
         </p>
         <p>
           <Students/>
+        </p>
+        <p>
+          <StyleComponent/>
         </p>
         <a
           className="App-link"
