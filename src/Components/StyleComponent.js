@@ -42,7 +42,8 @@ class StyleComponent extends Component {
                 {/* <h1 className="myFont">Hello CSS extrenal file</h1> */}
                 {/* for using mutiple css classes we use " " (space)  to sepearate 2 css className */}
                 {/* <h1 className="myFont myFont1">Hello CSS extrenal file</h1> */}
-                <h1 className={checkVal}>Hello CSS extrenal file</h1>
+                {/* <h1 className={checkVal}>Hello CSS extrenal file</h1> */}
+                <h1 className={`${checkVal} myFont2`}>Hello CSS extrenal file</h1>
                 
             </div>
         );
