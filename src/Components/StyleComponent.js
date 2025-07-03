@@ -1,5 +1,5 @@
 import React,{Component} from "react";
-
+import "./StyleComponent.css"
 class StyleComponent extends Component {
     constructor(props){
         super(props);
@@ -37,9 +37,19 @@ class StyleComponent extends Component {
                 {/* <h1 style={obj}>Hello EveryOne</h1> */}
                 {/* <h1 style={{...obj1,...obj2 }}>Hello EveryOne</h1>  if we have multiple set of oject we can us spread opeartor */}
                 <button style={obj} onClick={this.changeState}>Click</button>
+                {/* since class is a reserved key word in js we need to use className(camelCase) */}
+                <h1 className="myFont">Hello CSS extrenal file</h1>
             </div>
         );
     }
+
+    // render(){
+    //     return(
+    //         <div>
+    //             <h1 className="myFont">Hello CSS extrenal file</h1>
+    //         </div>
+    //     )
+    // }
 }
 
 export default StyleComponent;
