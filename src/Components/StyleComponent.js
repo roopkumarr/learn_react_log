@@ -30,6 +30,7 @@ class StyleComponent extends Component {
             fontSize:"50px",
         };
         if(this.state.isActive) obj.backgroundColor = "blue"; 
+        let checkVal = this.props.check? "myFont" : "myFont1"
         return(
             <div>
                 {/* first set of curly brace is for JS expression and secand one is for JS object  */}
@@ -40,7 +41,9 @@ class StyleComponent extends Component {
                 {/* since class is a reserved key word in js we need to use className(camelCase) */}
                 {/* <h1 className="myFont">Hello CSS extrenal file</h1> */}
                 {/* for using mutiple css classes we use " " (space)  to sepearate 2 css className */}
-                <h1 className="myFont myFont1">Hello CSS extrenal file</h1>
+                {/* <h1 className="myFont myFont1">Hello CSS extrenal file</h1> */}
+                <h1 className={checkVal}>Hello CSS extrenal file</h1>
+                
             </div>
         );
     }

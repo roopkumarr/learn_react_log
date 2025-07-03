@@ -109,7 +109,8 @@ function App() {
           <Students/>
         </p>
         <p>
-          <StyleComponent/>
+          {/* note booleon values is written inside {}(curl brace) */}
+          <StyleComponent check = {true} />
         </p>
         <a
           className="App-link"
