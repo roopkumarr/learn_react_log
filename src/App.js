@@ -15,6 +15,8 @@ import Component1 from './Components/Component1';
 import Component2 from './Components/Component2';
 import Students from './Components/Students';
 import StyleComponent from './Components/StyleComponent';
+import Stylesheet2 from './Components/Stylesheet2';
+import Stylesheet1 from './Components/Stylesheet1';
 
 
 let a ="React";
@@ -111,6 +113,12 @@ function App() {
         <p>
           {/* note booleon values is written inside {}(curl brace) */}
           <StyleComponent check = {true} />
+        </p>
+        <p>
+          <Stylesheet1/>
+        </p>
+        <p>
+          <Stylesheet2/>
         </p>
         <a
           className="App-link"
