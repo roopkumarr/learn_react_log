@@ -17,6 +17,7 @@ import Students from './Components/Students';
 import StyleComponent from './Components/StyleComponent';
 import Stylesheet2 from './Components/Stylesheet2';
 import Stylesheet1 from './Components/Stylesheet1';
+import Learn from './Components/Learn';
 
 
 let a ="React";
@@ -119,6 +120,9 @@ function App() {
         </p>
         <p>
           <Stylesheet2/>
+        </p>
+        <p>
+          <Learn/>
         </p>
         <a
           className="App-link"
