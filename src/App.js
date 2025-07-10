@@ -18,6 +18,7 @@ import StyleComponent from './Components/StyleComponent';
 import Stylesheet2 from './Components/Stylesheet2';
 import Stylesheet1 from './Components/Stylesheet1';
 import Learn from './Components/Learn';
+import UScomponent from './Components/UScomponent';
 
 
 let a ="React";
@@ -26,7 +27,7 @@ function App() {
   const showName = "World";
   let age = 15;
   // Making conditional statement out side
-  if(flagVal == false)
+  if(flagVal === false)
   // return(<Component1/>)
   return(
     <div>
@@ -123,6 +124,9 @@ function App() {
         </p>
         <p>
           <Learn/>
+        </p>
+        <p>
+          <UScomponent/>
         </p>
         <a
           className="App-link"
