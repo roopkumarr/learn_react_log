@@ -9,11 +9,18 @@ function USobject(){
     }
     const [person, setPerson] = useState(obj);
     let changeState = ()=>{
-        setPerson({
-            name:"Kumar",
-            age:30,
-            height:5.3,
-            isYoung:false
+        // setPerson({
+        //     name:"Kumar",
+        //     age:30,
+        //     height:5.3,
+        //     isYoung:false
+        // })
+        // when we want to Update a specific key value inside a object we make the following logic where the previous state is passed a parameter for setVariablefunc and using the same with spreadOpearation so the previous state data is retreived and only the updated key pair is updated 
+        setPerson(previousState=>{
+            return{
+                ...previousState,
+                name:"Kumar",
+            }
         })
     }
     return(
