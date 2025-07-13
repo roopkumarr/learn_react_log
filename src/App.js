@@ -19,6 +19,7 @@ import Stylesheet2 from './Components/Stylesheet2';
 import Stylesheet1 from './Components/Stylesheet1';
 import Learn from './Components/Learn';
 import UScomponent from './Components/UScomponent';
+import USobject from './Components/USobject';
 
 
 let a ="React";
@@ -127,6 +128,9 @@ function App() {
         </p>
         <p>
           <UScomponent/>
+        </p>
+        <p>
+        <USobject/>
         </p>
         <a
           className="App-link"
