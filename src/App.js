@@ -20,6 +20,7 @@ import Stylesheet1 from './Components/Stylesheet1';
 import Learn from './Components/Learn';
 import UScomponent from './Components/UScomponent';
 import USobject from './Components/USobject';
+import USArray from './Components/USArray';
 
 
 let a ="React";
@@ -131,6 +132,9 @@ function App() {
         </p>
         <p>
         <USobject/>
+        </p>
+        <p>
+        <USArray/>
         </p>
         <a
           className="App-link"
