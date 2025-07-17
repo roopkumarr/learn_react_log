@@ -21,6 +21,7 @@ import Learn from './Components/Learn';
 import UScomponent from './Components/UScomponent';
 import USobject from './Components/USobject';
 import USArray from './Components/USArray';
+import ClassState from './Components/ClassState';
 
 
 let a ="React";
@@ -135,6 +136,9 @@ function App() {
         </p>
         <p>
         <USArray/>
+        </p>
+        <p>
+          <ClassState/>
         </p>
         <a
           className="App-link"
